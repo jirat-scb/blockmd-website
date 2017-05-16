@@ -1,0 +1,40 @@
+.top-line {
+    display: none;
+}
+
+.navbar-brand>img {
+    width: 60%;
+}
+
+header.active .navbar-brand>img {
+    width: 40%;
+}
+
+#home-section {
+    margin-top: 98px;
+}
+
+.navbar-nav>li>a {
+    font-family: "Prompt-Medium";
+    font-size: 16px;
+}
+
+.title-section.whatisblockmd h1 {
+    font-family: "Prompt-Medium";
+}
+
+.description-section.whatisblockmd {
+    text-align: center;
+    width: 75%;
+    margin: 0px auto;
+}
+
+.description-section.whatisblockmd p {
+    font-family: "Prompt-Regular";
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.page-banner-section {
+    margin-top: 98px;
+}

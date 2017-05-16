@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <% include partial/head-html.ejs %>
+</head>
+
+<body>
+    <!-- Container -->
+    <div id="container">
+    
+        <% include partial/header.ejs %>
+
+ <!-- page-banner-section 
+			================================================== -->
+        <section class="page-banner-section">
+            <div class="container">
+                <h2>Products</h2>
+                <ul class="page-depth">
+                    <li><a href="/">BLOCK M.D.</a></li>
+                    <li><a href="product">Products</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- End page-banner section -->
+
+        <!-- footer 
+			================================================== -->
+        <% include partial/footer.ejs %>
+        
+        <!-- End footer -->
+
+        <!-- Start Button Scroll UP -->
+        <div class="Scroll-up">
+            <i class="fa fa-stethoscope" aria-hidden="true"></i>
+        </div>
+        <!-- End Button Scroll UP -->
+
+
+    </div>
+    <!-- End Container -->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <!--
+    <script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+    -->
+    <script type="text/javascript" src="js/plugins-scroll.js"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="custom/css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="custom/fonts/fonts.css" media="screen">
+
+
+    <script>
+        jQuery(document).on("ready", function() {
+            const cls = '<%= cls %>';
+            $(".ml").each(function(){
+                var objML = $(this);
+                if(objML.find('a').hasClass('active')){
+                    objML.find('a').removeClass('active')
+                }
+
+                if(objML.find('a').hasClass(cls)){
+                    objML.find('a').addClass('active')
+                }
+            });
+        });
+    </script>
+</body>
+</html>
