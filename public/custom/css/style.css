@@ -19,7 +19,8 @@ header.active .navbar-brand>img {
     font-size: 16px;
 }
 
-.title-section.whatisblockmd h1 {
+.title-section.whatisblockmd h1,
+.features-home-page .title-section h1 {
     font-family: "Prompt-Medium";
 }
 
@@ -35,6 +36,62 @@ header.active .navbar-brand>img {
     line-height: 32px;
 }
 
+.features-home-page .description-section p {
+    font-family: "Prompt-Regular";
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+}
+
 .page-banner-section {
     margin-top: 98px;
+}
+
+.features-home-page .feature-description h4 {
+    font-family: "Prompt-Medium";
+}
+
+.features-home-page .feature-description p {
+    font-family: "Prompt-Regular";
+}
+
+.service-box.service-offer {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.service-box.service-offer h4 {
+    font-family: "Prompt-Medium";
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.service-box.service-offer h4 img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.service-box.service-offer p {
+    font-family: "Prompt-Regular";
+    font-size: 14px;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.server-descritpion p {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+}
+
+.service-images {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.news-section {
+    display: none;
 }
